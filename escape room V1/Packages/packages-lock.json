@@ -189,7 +189,7 @@
     },
     "com.unity.xr.management": {
       "version": "4.3.3",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0",
