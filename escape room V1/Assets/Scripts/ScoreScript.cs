@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class ScoreScript : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class ScoreScript : MonoBehaviour
         if (score == finalScore)
         {
             winAction.Invoke();
+            SceneManager.LoadScene("Level1_Final");
         }
     }
 }
