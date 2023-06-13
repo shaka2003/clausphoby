@@ -38,10 +38,10 @@ public class VRTrapHandler : MonoBehaviour
             trapGrabbed = true;
 
             // Activate the jumpscare object
-            // jumpscareObject.SetActive(true);
+            jumpscareObject.SetActive(true);
 
             // // Play the sound effect
-            // AudioSource.PlayClipAtPoint(soundEffect, transform.position);
+            AudioSource.PlayClipAtPoint(soundEffect, transform.position);
         }
     }
 }

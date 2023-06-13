@@ -16,6 +16,8 @@ public class Level1ScoreScript : MonoBehaviour
         if(score == finalScore)
         {
             winAction.Invoke();
+            
         }
     }
 }
+ 
