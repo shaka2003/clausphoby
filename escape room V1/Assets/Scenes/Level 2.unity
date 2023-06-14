@@ -1219,21 +1219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdb390f6ad0ab46469545fb02b497861, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &349917327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 349917325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46f434b20c5da3148b9c1ea752a21a5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpscareObject: {fileID: 0}
-  soundEffect: {fileID: 8300000, guid: 0d3e58bb90924afba39e665277b5f80a, type: 3}
-  delayBeforeSceneChange: 5
 --- !u!114 &349917328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1385,6 +1370,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &349917330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349917325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363d14dd77fc8264b9e2230caad7f60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeSceneChange: 1
 --- !u!1001 &388673706
 PrefabInstance:
   m_ObjectHideFlags: 0
